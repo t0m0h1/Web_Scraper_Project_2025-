@@ -32,5 +32,5 @@ def get_amazon_price(url):
         return "Failed to retrieve the webpage."
 
 # Example usage
-url = "https://www.amazon.co.uk/"  # Replace with your Amazon product URL
+url = "https://www.amazon.co.uk/Jackery-Explorer-Portable-Versatile-Scenarios-Outdoor/dp/B0CYPKY7NQ/ref=sr_1_5?dib=eyJ2IjoiMSJ9._qZ5_VW0VeBfNa8IgKK-nS_MSgbzKHoolzZdegthLxUkNQ72PYMGLQSX_99O9mmyyAVDb7KF1ClYxpRYH5jli_SJAd9KEzKadq3w3aLBQwQDc4mjlieZxD2eikrDpGUf7ZY2X3za-PMn52Z_UUpXjeZEY5oeShYaz2pw1rMJPGJ7UgzEa-fQogaL3l-KnY8hZNhIVaQ-MHVMsntQjd7EDT0Bx6H-nBPblimn7HRjR2A.DvgaV6Vu1QlLCw3-gTLrmHRsrLjDeMhldDCLJDMa1KM&dib_tag=se&keywords=jackery&nsdOptOutParam=true&qid=1737668973&sr=8-5&ufe=app_do%3Aamzn1.fos.d7e5a2de-8759-4da3-993c-d11b6e3d217f&th=1"  # Replace with your Amazon product URL
 print(get_amazon_price(url))
